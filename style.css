@@ -138,6 +138,7 @@ nav .right a span {
 
 .project-section h2{
     text-align: center;
+    font-size: 35px;
 }
 .project-section .cells {
     display: flex;
@@ -161,3 +162,63 @@ nav .right a span {
     border-radius: 5px;
     margin: 8px;
 }
+
+
+.contact {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+.contact h2 {
+    font-size: 35px;
+
+}
+
+
+.contact .group {
+    display: flex;
+    gap: 50px;
+}
+.contact .group .text {
+    flex: 3;
+
+}
+.contact .group form {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+
+}
+.contact .group form input,
+.contact .group form textarea {
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: blue;
+    border-radius: 10px;
+    border: 2px solid var(--link-color);
+
+}
+.contact .group form button {
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
+    background-color: var(--link-color);
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contact .group form button:hover{
+    filter: brightness(.7);
+}
+
+footer {
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
